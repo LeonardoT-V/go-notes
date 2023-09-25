@@ -9,6 +9,7 @@ import (
 func main() {
 	fmt.Println("hola")
 	//variables.ShowInteger()
-	variables.ShowRestVar()
-
+	//variables.ShowRestVar()
+	est, text := variables.ConvertToText(10)
+	fmt.Println(est, text)
 }

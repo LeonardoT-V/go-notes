@@ -16,6 +16,7 @@ func ShowInteger() {
 }
 
 /* esto no se encuentra publicamente */
-func hola() {
+/* func hola() {
 	fmt.Println("hola")
 }
+*/
