@@ -14,3 +14,8 @@ func ShowInteger() {
 
 	fmt.Printf("common: %v, 16: %v, 32: %v, 64: %v", intCommon, intOf16, intOf32, intOf64)
 }
+
+/* esto no se encuentra publicamente */
+func hola() {
+	fmt.Println("hola")
+}

@@ -8,5 +8,7 @@ import (
 
 func main() {
 	fmt.Println("hola")
-	variables.ShowInteger()
+	//variables.ShowInteger()
+	variables.ShowRestVar()
+
 }
