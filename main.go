@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/leonardoT-V/go-notes/control"
 	"github.com/leonardoT-V/go-notes/variables"
 )
 
@@ -12,4 +13,5 @@ func main() {
 	//variables.ShowRestVar()
 	est, text := variables.ConvertToText(10)
 	fmt.Println(est, text)
+	control.ShowDeviceRunning()
 }
