@@ -1,7 +1,9 @@
 package main
 
-import "github.com/leonardoT-V/go-notes/webserver"
+import (
+	"github.com/leonardoT-V/go-notes/middleware"
+)
 
 func main() {
-	webserver.StartWebServer()
+	middleware.OperatorMiddleware()
 }
