@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/files"
+	"github.com/leonardoT-V/go-notes/funciones"
 )
 
 func main() {
-	files.ReadData()
+	funciones.Calculos()
 }
