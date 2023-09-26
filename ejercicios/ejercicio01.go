@@ -10,9 +10,10 @@ func Ejercicio1(s string) (int, string) {
 	var textToSend string
 	if num >= 100 {
 		textToSend = fmt.Sprintf("El numero %v es mayor a 100", num)
+		return num, textToSend
 	} else {
 		textToSend = fmt.Sprintf("El numero %v es menor a 100", num)
+		return num, textToSend
 	}
 
-	return num, textToSend
 }
