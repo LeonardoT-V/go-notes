@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/funciones"
+	"github.com/leonardoT-V/go-notes/vector"
 )
 
 func main() {
-	funciones.ExponentNumber(1)
+	vector.ShowArrays()
 }
