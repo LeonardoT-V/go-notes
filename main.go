@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	funciones.CallClousureTabla()
+	funciones.ExponentNumber(1)
 }
