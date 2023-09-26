@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	funciones.Calculos()
+	funciones.CallClousureTabla()
 }
