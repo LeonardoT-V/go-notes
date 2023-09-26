@@ -1,12 +1,9 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/leonardoT-V/go-notes/ejercicios"
+	"github.com/leonardoT-V/go-notes/teclado"
 )
 
 func main() {
-	_, msg := ejercicios.Ejercicio1("99")
-	fmt.Println(msg)
+	teclado.InputKeyboardNumber()
 }
