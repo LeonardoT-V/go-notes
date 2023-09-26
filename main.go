@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/control"
+	"github.com/leonardoT-V/go-notes/ejercicios"
 )
 
 func main() {
-	control.BasicForStuct()
+	ejercicios.ExcecuteEje2()
 }
