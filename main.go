@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/control"
+	"fmt"
+
+	"github.com/leonardoT-V/go-notes/ejercicios"
 )
 
 func main() {
-	control.ShowDeviceRunningSwitch()
+	_, msg := ejercicios.Ejercicio1("99")
+	fmt.Println(msg)
 }
