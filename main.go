@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/vector"
+	"github.com/leonardoT-V/go-notes/mapas"
 )
 
 func main() {
-	vector.Capacidad()
+	mapas.Mapas()
 }
