@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	deferpanic.DeferExample()
+	deferpanic.PanicExample()
 }
