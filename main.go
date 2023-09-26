@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	vector.ShowArrays()
+	vector.Capacidad()
 }
