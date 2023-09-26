@@ -1,9 +1,12 @@
 package main
 
 import (
-	modeluser "github.com/leonardoT-V/go-notes/modelUser"
+	inter "github.com/leonardoT-V/go-notes/ejeInterfaces"
+	"github.com/leonardoT-V/go-notes/modelos"
 )
 
 func main() {
-	modeluser.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+
+	inter.HumWalking(Pedro)
 }
