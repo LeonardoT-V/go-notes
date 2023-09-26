@@ -9,7 +9,9 @@ import (
 
 var selectTable bool = true
 
-func ExcecuteEje2() {
+func ExcecuteEje2() string {
+
+	var formatTable string
 	scan := bufio.NewScanner(os.Stdin)
 
 	for selectTable {
@@ -21,9 +23,11 @@ func ExcecuteEje2() {
 				continue
 			}
 			for i := 0; i < 12; i++ {
-				fmt.Printf("%d x %d = %d\n", table, i, table*i)
+				//fmt.Printf("%d x %d = %d\n", table, i, table*i)
+				formatTable += fmt.Sprintf("%d x %d = %d\n", table, i, table*i)
 			}
 			selectTable = false
 		}
 	}
+	return formatTable
 }

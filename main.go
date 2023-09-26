@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/ejercicios"
+	"github.com/leonardoT-V/go-notes/files"
 )
 
 func main() {
-	ejercicios.ExcecuteEje2()
+	files.ReadData()
 }
