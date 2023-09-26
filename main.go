@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/teclado"
+	"github.com/leonardoT-V/go-notes/control"
 )
 
 func main() {
-	teclado.InputKeyboardNumber()
+	control.BasicForStuct()
 }
