@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/leonardoT-V/go-notes/mapas"
+	modeluser "github.com/leonardoT-V/go-notes/modelUser"
 )
 
 func main() {
-	mapas.Mapas()
+	modeluser.AltaUsuario()
 }
